@@ -1,0 +1,7 @@
+<h1>Artists</h1>
+
+<ol>
+<% @artists.each do |artist| %>
+    <%= artist.name %> - <%= artist.bio %>
+<% end %>
+</ol>
