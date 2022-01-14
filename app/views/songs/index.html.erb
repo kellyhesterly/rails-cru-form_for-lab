@@ -1,7 +1,7 @@
 <h1>Songs</h1>
 
-<ol>
-    <% @songs.each do |song| %>
-        <%= song.name %> - <%= song.artist_id %> - <%= song.genre_id %>
-    <% end %>
-</ol>
+<% @songs.each do |song| %>
+  <ol>
+    <p><%= song.name %></p>
+  </ol>
+<% end %>
